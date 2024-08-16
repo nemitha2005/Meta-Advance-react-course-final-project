@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Box, VStack, Text, Image } from "@chakra-ui/react";
 
 const LandingSection = () => {
@@ -12,8 +12,15 @@ const LandingSection = () => {
             src="https://i.pravatar.cc/150?img=7"
             alt="Avatar"
           />
-          <Text fontSize="lg" color="white">Hello, I'm Nemitha!</Text>
-          <Text fontSize="4xl" fontWeight="bold" color="white" textAlign="center">
+          <Text fontSize="lg" color="white">
+            Hello, I'm Nemitha!
+          </Text>
+          <Text
+            fontSize="4xl"
+            fontWeight="bold"
+            color="white"
+            textAlign="center"
+          >
             A frontend developer specialized in React
           </Text>
         </VStack>

@@ -1,9 +1,9 @@
-import React from 'react'
-import './App.css';
-import Header from './components/Header';
-import LandingSection from './components/LandingSection';
-import ProjectsSection from './components/ProjectsSection';
-import ContactMeSection from './components/ContactMeSection';
+import React from "react";
+import Header from "./components/Header";
+import LandingSection from "./components/LandingSection";
+import ProjectsSection from "./components/ProjectsSection";
+import ContactMeSection from "./components/ContactMeSection";
+import { AlertProvider } from "./components/context/alertContext";
 
 const App = () => {
   return (
@@ -11,9 +11,11 @@ const App = () => {
       <Header />
       <LandingSection />
       <ProjectsSection />
-      <ContactMeSection />
+      <AlertProvider>
+        <ContactMeSection />
+      </AlertProvider>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
