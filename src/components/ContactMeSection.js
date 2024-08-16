@@ -52,7 +52,7 @@ const ContactMeSection = () => {
   });
 
   return (
-    <Box bg="#2A1758">
+    <Box bg="#2A1758" id="contact">
       <Box p={4} maxW="800px" mx="auto">
         <Text fontSize="2xl" fontWeight="bold" mb={4} color="white" pb={5}>
           Contact Me
