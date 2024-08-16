@@ -51,8 +51,8 @@ const ProjectsSection = () => {
                 src={project.imageUrl}
                 alt={project.title}
                 width="100%"
-                height="200px" // Fixed height for all images
-                objectFit="cover" // Ensures the image covers the area without distortion
+                height="200px" 
+                objectFit="cover"
               />
               <Box p={4}>
                 <Text fontWeight="bold" color="black" fontSize="xl">
